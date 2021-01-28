@@ -19,6 +19,34 @@
         var name = "Martin";
         var surname = "Guilhem";
         console.log(name+' '+surname);
+ 
+        //E4
+        var n1 = 1;
+        var n2 = 2;
+        console.log('the sum of '+n1+' plus '+n2+' is '+(n1+n2));
+
+        //E5
+        var nota = prompt('Enter your grade: ', 0);
+        if(nota>=5 && nota<=10){
+            alert('Congratulations, you passed the exam!');
+        } else if(nota>=0 && nota<5){
+            alert('Sorry, you failed the exam');
+        }else{
+            alert('You must put a correct value');
+        }
+
+        //E6 replacing a word from string
+        var str = "I have a white car";
+        var res = str.replace("white", "blue");
+        console.log(res);
+        var res = str.replace("i", "u");
+        console.log(res);       
+
+        //E7
+        var array = ['taula', 'cadira', 'ordinador', 'libreta'];
+        for(i = 0; i<array.length; i++){
+            console.log("The object "+array[i]+" is in the "+i+"th. position");
+        }
 
 
     </script>
